@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha index.test.js -w",
-    "ci": "mocha index.test.js",
+    "test:single": "mocha index.test.js",
+    "ci": "npm run coverage",
     "commit": "git-cz",
-    "coverage": "nyc --reporter=lcov npm run ci"
+    "coverage": "nyc --reporter=lcov npm run test:single"
   },
   "repository": {
     "type": "git",
