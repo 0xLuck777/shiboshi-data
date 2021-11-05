@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/0xLuck777/shiboshi-data.git"
+    "url": "git+https://github.com/0xLuck777/shiboshis.git"
   },
   "keywords": [
     "shiboshi",
@@ -21,9 +21,9 @@
   "author": "0xLuck777",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/0xLuck777/shiboshi-data/issues"
+    "url": "https://github.com/0xLuck777/shiboshis/issues"
   },
-  "homepage": "https://github.com/0xLuck777/shiboshi-data#readme",
+  "homepage": "https://github.com/0xLuck777/shiboshis#readme",
   "devDependencies": {
     "chai": "4.3.4",
     "commitizen": "4.2.4",
