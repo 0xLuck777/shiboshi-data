@@ -23,5 +23,10 @@ describe('shiboshis', () => {
       const shiboshiById = shiboshis.getShiboshiById(2601);
       expect(shiboshiById).to.have.property('token_id', '2601');
     });
+
+    it('should accept an array of ids and return an array of objects', () => {
+      const shiboshisById = shiboshis.getShiboshiById([2601, 3405, '9999', 0]);
+      expect(shiboshisById).to.have.length(4);
+    });
   });
 });
