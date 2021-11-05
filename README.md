@@ -1,4 +1,4 @@
-# shiboshi-data
+# shiboshi
 
 Install:
 
