@@ -1,4 +1,4 @@
-# shiboshi
+# shiboshis
 
 Install:
 
