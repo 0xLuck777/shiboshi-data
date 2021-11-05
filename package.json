@@ -1,0 +1,29 @@
+{
+  "name": "shiboshi-data",
+  "version": "1.0.0",
+  "description": "A quick script to get shiboshi collection data from OpenSea",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0xLuck777/shiboshi-data.git"
+  },
+  "keywords": [
+    "shiboshi",
+    "nft",
+    "opensea",
+    "ethereum"
+  ],
+  "author": "0xLuck777",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/0xLuck777/shiboshi-data/issues"
+  },
+  "homepage": "https://github.com/0xLuck777/shiboshi-data#readme",
+  "dependencies": {
+    "axios": "0.24.0",
+    "cli-progress": "3.9.1"
+  }
+}
