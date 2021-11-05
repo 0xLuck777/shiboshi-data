@@ -2,3 +2,4 @@ node_modules
 .gitconfig
 .DS_Store
 package-lock.json
+coverage
