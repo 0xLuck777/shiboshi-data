@@ -5,6 +5,6 @@ function getShiboshiById(id) {
 }
 
 module.exports = {
-  getAllShiboshis: shiboshiData,
+  all: shiboshiData,
   getShiboshiById,
 };
